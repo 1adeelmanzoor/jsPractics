@@ -1,0 +1,81 @@
+/* No CSS */
+/* .mybox {
+  display: block;
+  background: #ffc;
+  padding: 5px;
+  border: 1px solid red;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+} */
+
+#changeBackground {
+  width: 100px;
+  height: 100px;
+}
+.red {
+  background-color: red;
+}
+.green {
+  background-color: green;
+}
+.blue {
+  background-color: blue;
+}
+
+.t1_colors {
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  border: 1px solid rgb(111, 61, 69);
+  margin: 12px;
+}
+
+.mybox {
+  display: block;
+  background: #ffc;
+  padding: 5px;
+  border: 1px solid red;
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  border-color: aliceblue;
+}
+.active {
+  border: 2px solid green;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.container {
+  border: 2px solid #333;
+}
+.color {
+  display: table-cell;
+  width: 50px;
+  height: 50px;
+  margin: 0 1px;
+  cursor: pointer;
+  border: 2px solid #fff;
+}
+.clr1 {
+  background-color: #9b0fdb;
+}
+.clr2 {
+  background-color: #ffea00;
+}
+.clr3 {
+  background-color: #04db53;
+}
+.clr4 {
+  background-color: #0f68db;
+}
